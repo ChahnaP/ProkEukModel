@@ -1,2 +1,2 @@
 # ProkEukModel
-I am designing a machine learning model that can predict if a DNA read is Prokaryotic or Eukaryotic based on AT and 3-mer content of the DNA. 
+I am designing a machine learning model that can predict if a DNA read is Prokaryotic or Eukaryotic based on AT and 3-mer content of the DNA.The DownloadingOrganismsNCBI file was used to download DNA sequences of a mass list of organisms. The boiler_plate_sample_revised code is used to calculate the AT and 3-mer content of the DNA sequences. The ProkEukSciKit code file is used for conducting 10 fold cross validation and feature selection on the training data set which includes the AT and 3-mer content (the features) of 750,000 reads of DNA (half of the reads prokaryotic, other half eukaryotic).
